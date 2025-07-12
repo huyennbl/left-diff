@@ -27,9 +27,9 @@ leftDiff([1,2,3], [3,4,5], [1])
 ```ts
 import { leftDiffDeep } from 'left-diff'
 
-leftDiff([1,[2,3]], [3,4,5])
+leftDiffDeep([1,[2,3]], [3,4,5])
 // => [1,2]
 
-leftDiff([1,2,3], [[3,4],5], [1])
+leftDiffDeep([1,2,3], [[3,4],5], [1])
 // => [2]
 ```
