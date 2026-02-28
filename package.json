@@ -31,7 +31,7 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "left-diff",
+  "name": "@huyennbl/left-diff",
   "author": "huyennbl",
   "module": "dist/left-diff.esm.js",
   "size-limit": [
